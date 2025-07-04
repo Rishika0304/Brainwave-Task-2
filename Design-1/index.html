@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthcare App - Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="https://marketplace.canva.com/EAGFJn_CyD4/2/0/1600w/canva-green-and-white-modern-medical-logo-Tl9mfMCsEVQ.jpg" alt="Hospital Logo">
+    <h1>Welcome, Ram</h1>
+</header>
+
+<div class="container">
+    <div class="card" style="background-image: url('https://demigos.com/media/cache/92/26/9226b401433e73c1338b75a81fc4351b.jpg');">
+        <div class="overlay">
+            <h2>Track Medication</h2>
+            <p>Manage your daily medicines with reminders</p>
+            <button onclick="redirectToMedication()">View Details</button>
+        </div>
+    </div>
+    
+    <div class="card" style="background-image: url('https://thumbs.dreamstime.com/b/professor-doctor-report-recommend-method-patient-treatment-results-brain-ray-film-problem-trea-102230707.jpg');">
+        <div class="overlay">
+            <h2>Health Reports</h2>
+            <p>View your health history and medical records</p>
+            <button onclick="redirectToReports()">View Details</button>
+        </div>
+    </div>
+    
+    <div class="card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUFSJyeCtMuvzBt9AuykJay_8s82Kt_yXjg&s');">
+        <div class="overlay">
+            <h2>Consult Doctor</h2>
+            <p>Chat or book an appointment with your doctor</p>
+            <button onclick="redirectToDoctor()">View Details</button>
+        </div>
+    </div>
+</div>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="track.html">Medications</a>
+    <a href="reports.html">Reports</a>
+    <a href="#" onclick="openProfile()">Profile</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
